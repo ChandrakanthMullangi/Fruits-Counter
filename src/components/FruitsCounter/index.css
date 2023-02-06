@@ -1,0 +1,75 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 5px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.span {
+  color: #ffd569;
+}
+
+.container {
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.fruits-container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image {
+  height: 60%;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background-color: dodgerblue;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banana-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 100%;
+    height: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .fruits-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
